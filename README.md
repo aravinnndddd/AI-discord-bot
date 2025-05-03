@@ -50,17 +50,7 @@ python bot.py
 
     Use the slash command /who_made_you to find out who created the bot.
 
-Helper-chan will respond with intelligent, Gemini-powered answers to your queries.
-🤖 About the Bot
 
-Helper-chan is not a human, it’s a large language model trained by Google to generate human-like responses. It can answer questions, assist with creative writing, explain complex topics, and more. Helper-chan is here to help!
-👨‍💻 Creator
-
-Built with 💖 by Aravind
-I designed Helper-chan to make your experience with AI both fun and useful. ✨
-📄 License
-
-This project is open for educational and personal use. Feel free to fork, modify, and experiment with it!
 ⚙️ Credits
 
     discord.py: For the bot framework and handling Discord interactions.
