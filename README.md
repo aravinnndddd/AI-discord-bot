@@ -1,6 +1,6 @@
 
 
-# 🤖 Helper-chan — Discord AI Chatbot
+# Discord AI Chatbot
 
 Helper-chan is an AI-powered Discord bot built using the Discord API and Google’s Gemini language model. It responds to both slash commands and normal messages, providing intelligent answers to your questions. Whether you're coding, curious, or just chatting, Helper-chan is here to help!
 
