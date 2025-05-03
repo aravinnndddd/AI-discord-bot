@@ -42,7 +42,7 @@ python app.py
 ```
 🧪 Usage
 
-    Mention the bot or just message to trigger a response:
+    Mention the bot to trigger a response:
 
         Example: @yourbot what is Python?
 
