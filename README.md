@@ -1,23 +1,76 @@
+
+
 # 🤖 Helper-chan — Discord AI Chatbot
 
-Helper-chan is an AI-powered Discord bot built using the Discord API and Google’s Gemini language model. It responds to both slash commands and normal messages, giving human-like responses to your questions and chats. Whether you're coding, curious, or just vibing, Helper-chan is here to help!
+Helper-chan is an AI-powered Discord bot built using the Discord API and Google’s Gemini language model. It responds to both slash commands and normal messages, providing intelligent answers to your questions. Whether you're coding, curious, or just chatting, Helper-chan is here to help!
 
 ---
 
 ## ✨ Features
 
-- 💬 Responds to any message that starts with "bot" or mentions the bot.
+- 💬 Responds to messages that start with "bot" or mentions the bot.
 - ❓ Slash command `/who_made_you` to show the creator.
-- 🧠 Uses Google Gemini (gemini-2.0-flash) to generate intelligent responses.
-- 📄 Sends long replies as `.md` file attachments if needed.
-- 🛡️ Ignores its own messages to prevent loops.
+- 🧠 Powered by Google Gemini AI (gemini-2.0-flash) for generating intelligent responses.
+- 📄 Sends long replies as `.md` file attachments if the response is too long for Discord messages.
+- 🛡️ Ignores its own messages to prevent reply loops.
 
 ---
 
 ## 🛠️ Setup & Installation
 
-1. **Clone this repo** or copy the files to your project folder.
+Follow these steps to get the bot running:
 
-2. **Install required packages**:
-   ```bash
-   pip install discord.py python-dotenv google-generativeai
+### 1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/helper-chan.git
+cd helper-chan
+```
+2. Install the required Python packages:
+```
+pip install discord.py python-dotenv google-generativeai
+```
+3. Set up environment variables:
+
+    Create a .env file in the project root directory with the following content:
+```
+    TOKEN=your_discord_bot_token
+    GEMINI_API_KEY=your_google_gemini_api_key
+```
+4. Run the bot:
+```
+python bot.py
+```
+🧪 Usage
+
+    Mention the bot or just message to trigger a response:
+
+        Example: @yourbot what is Python?
+
+        Example: bot explain machine learning.
+
+    Use the slash command /who_made_you to find out who created the bot.
+
+Helper-chan will respond with intelligent, Gemini-powered answers to your queries.
+🤖 About the Bot
+
+Helper-chan is not a human, it’s a large language model trained by Google to generate human-like responses. It can answer questions, assist with creative writing, explain complex topics, and more. Helper-chan is here to help!
+👨‍💻 Creator
+
+Built with 💖 by Aravind
+I designed Helper-chan to make your experience with AI both fun and useful. ✨
+📄 License
+
+This project is open for educational and personal use. Feel free to fork, modify, and experiment with it!
+⚙️ Credits
+
+    discord.py: For the bot framework and handling Discord interactions.
+
+    Google Gemini: For powerful language model responses.
+
+    python-dotenv: For managing environment variables securely.
+
+
+---
+
+This should provide a good overview of how to set up, use, and understand the bot. Let me know if you need further modifications!
+
