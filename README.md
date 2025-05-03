@@ -38,7 +38,7 @@ pip install discord.py python-dotenv google-generativeai
 ```
 4. Run the bot:
 ```
-python bot.py
+python app.py
 ```
 🧪 Usage
 
