@@ -22,8 +22,8 @@ Follow these steps to get the bot running:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/helper-chan.git
-cd helper-chan
+https://github.com/aravinnndddd/AI-discord-bot.git
+cd AI-discord-bot
 ```
 2. Install the required Python packages:
 ```
