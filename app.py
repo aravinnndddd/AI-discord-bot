@@ -38,7 +38,7 @@ async def on_message(message):
         return
 
     # Optional: Add a prefix filter to only respond to messages that mention the bot or start with "bot"
-    if message.content.startswith("") or bot.user.mentioned_in(message):
+    if bot.user.mentioned_in(message):
         try:
             thinking = await message.channel.send("💭 Thinking...")
 
