@@ -1,15 +1,9 @@
-
-
-
 import discord
 from discord.ext import commands
 import os
 from dotenv import load_dotenv
 from google import genai
 from io import StringIO
-
-
-
 # Load .env
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
